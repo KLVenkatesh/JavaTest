@@ -2,8 +2,16 @@ package arrays;
 
 import java.util.Arrays;
 
+import org.testng.annotations.Test;
+
 public class MyArrayDeepEquals {
-	public static void main(String a[]){
+	
+	@Test
+	public void arrayEqualsTest() {
+		arrayEquals();
+	}
+	
+	public void arrayEquals(){
         String[] strArr = {"JAVA", "C++", "PERL", "STRUTS", "PLAY"};
         String[] strArrCopy = {"JAVA", "C++", "PERL", "STRUTS", "PLAY"};
         System.out.println("Are strArr and strArrCopy same? "

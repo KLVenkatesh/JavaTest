@@ -1,8 +1,18 @@
 package javaexercise;
 
+import org.testng.annotations.Test;
+
 public class palindromeTest {
 	String s2="";
+	
+	//TestNG UnitTesting
+	@Test
+	
+	public void TestPlaindrome(){
+		palindrome("MALAYALAM");
+	}
 
+	//Method to evaluate the given string Palindrome or not?
 	public void palindrome(String s1) 	
 	{
 		//Length of input string
@@ -22,11 +32,6 @@ public class palindromeTest {
 	
 	}
 	
-	public static void main(String[] args) {
-		palindromeTest p1 = new palindromeTest();
-		p1.palindrome("liril");
-	}
-
 }
 
 

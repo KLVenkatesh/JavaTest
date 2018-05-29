@@ -2,11 +2,18 @@ package arrays;
 
 import java.util.Arrays;
 
+import org.testng.annotations.Test;
+
 public class BinarySearchOnCharArray {
 
-	public static void main(String[] args) {
+	@Test
+	public void binarySearchTest() {
+		binarySearch(0, 'q');
+	}
+	
+	public void binarySearch(int i, char j) {
 		char[] chrArr = {'a','c','d','y','e','q','b'};
-		int index = Arrays.binarySearch(chrArr, 0, chrArr.length-1, 'q');
+		int index = Arrays.binarySearch(chrArr, i, chrArr.length-1, j);
 		System.out.println(index);
 	}
 

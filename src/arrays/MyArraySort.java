@@ -2,12 +2,19 @@ package arrays;
 
 import java.util.Arrays;
 
+import org.testng.annotations.Test;
+
 public class MyArraySort {
-public static void main(String a[]){
-		
+	
+	@Test
+	public void ArraySortTest() {
 		int[] myArr = {3,2,56,12,98,23,56};
-		Arrays.sort(myArr);
-		for(int str:myArr){
+		ArraySort(myArr);
+	}
+	
+public void ArraySort(int[] i){		
+		Arrays.sort(i);
+		for(int str:i){
 			System.out.println(str);
 		}
 	}
