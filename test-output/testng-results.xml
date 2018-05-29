@@ -1,53 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="67" started-at="2018-05-29T04:09:40Z" finished-at="2018-05-29T04:09:40Z">
+  <suite name="Default suite" duration-ms="47" started-at="2018-05-29T06:59:53Z" finished-at="2018-05-29T06:59:53Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="67" started-at="2018-05-29T04:09:40Z" finished-at="2018-05-29T04:09:40Z">
-      <class name="arrays.MyArrayFill">
-        <test-method status="PASS" signature="arrayFillTest()[pri:0, instance:arrays.MyArrayFill@5034c75a]" name="arrayFillTest" duration-ms="1" started-at="2018-05-29T04:09:40Z" finished-at="2018-05-29T04:09:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- arrayFillTest -->
-      </class> <!-- arrays.MyArrayFill -->
+    <test name="Default test" duration-ms="47" started-at="2018-05-29T06:59:53Z" finished-at="2018-05-29T06:59:53Z">
       <class name="arrays.MyArraySort">
-        <test-method status="PASS" signature="ArraySortTest()[pri:0, instance:arrays.MyArraySort@6d00a15d]" name="ArraySortTest" duration-ms="2" started-at="2018-05-29T04:09:40Z" finished-at="2018-05-29T04:09:40Z">
+        <test-method status="PASS" signature="ArraySortTest()[pri:0, instance:arrays.MyArraySort@643b1d11]" name="ArraySortTest" duration-ms="16" started-at="2018-05-29T06:59:53Z" finished-at="2018-05-29T06:59:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArraySortTest -->
       </class> <!-- arrays.MyArraySort -->
-      <class name="arrays.MyArrayCopy">
-        <test-method status="PASS" signature="arrayCopyTest()[pri:0, instance:arrays.MyArrayCopy@6cc4c815]" name="arrayCopyTest" duration-ms="9" started-at="2018-05-29T04:09:40Z" finished-at="2018-05-29T04:09:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- arrayCopyTest -->
-      </class> <!-- arrays.MyArrayCopy -->
-      <class name="arrays.BinarySearchOnCharArray">
-        <test-method status="PASS" signature="binarySearchTest()[pri:0, instance:arrays.BinarySearchOnCharArray@51efea79]" name="binarySearchTest" duration-ms="0" started-at="2018-05-29T04:09:40Z" finished-at="2018-05-29T04:09:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- binarySearchTest -->
-      </class> <!-- arrays.BinarySearchOnCharArray -->
-      <class name="arrays.MyArrayDeepEquals">
-        <test-method status="PASS" signature="arrayEqualsTest()[pri:0, instance:arrays.MyArrayDeepEquals@643b1d11]" name="arrayEqualsTest" duration-ms="1" started-at="2018-05-29T04:09:40Z" finished-at="2018-05-29T04:09:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- arrayEqualsTest -->
-      </class> <!-- arrays.MyArrayDeepEquals -->
-      <class name="javaexercise.palindromeTest">
-        <test-method status="PASS" signature="TestPlaindrome()[pri:0, instance:javaexercise.palindromeTest@36d4b5c]" name="TestPlaindrome" duration-ms="2" started-at="2018-05-29T04:09:40Z" finished-at="2018-05-29T04:09:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestPlaindrome -->
-      </class> <!-- javaexercise.palindromeTest -->
-      <class name="arrays.ArraysToList">
-        <test-method status="PASS" signature="arrayListTest()[pri:0, instance:arrays.ArraysToList@2ef5e5e3]" name="arrayListTest" duration-ms="3" started-at="2018-05-29T04:09:40Z" finished-at="2018-05-29T04:09:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- arrayListTest -->
-      </class> <!-- arrays.ArraysToList -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
