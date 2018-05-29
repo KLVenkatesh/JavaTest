@@ -10,6 +10,7 @@ public class ArraysToList {
 	@Test
 	public void arrayListTest() {
 		arrayList();
+		
 	}
 
 	public void arrayList() {
